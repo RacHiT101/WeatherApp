@@ -1,0 +1,100 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rebeccapurple;
+    margin: 100px 575px;
+    opacity: 0.9;
+    padding: 10px 0px;
+    border-radius: 30px;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    height: 70px;
+    letter-spacing: 2px;
+}
+
+.title p{
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+    color: #d7828bdf;
+}
+
+.notify{
+    width: 350px;
+    height: 50px;
+}
+
+.notify p{
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    bottom: 25px;
+    color: #d7828bdf;
+    font-weight: bold;
+}
+
+.weather-container{
+    width: 350px;
+    text-align: center;
+    background-color: rgb(245, 236, 225);
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 30px;
+    margin-top: 5px;
+    opacity: 0.9;
+}
+
+.weatherIcon{
+    position: relative;
+    bottom: 20px;
+    
+}
+
+.temp{
+    height:60px;
+    position: relative;
+    bottom: 30px;
+}
+
+.temp span{
+    color: #293251;
+    font-size: 0.5em;
+}
+
+.temp p{
+    padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 4em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.TempDesc p{
+    padding: 8px;
+    margin: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+.location p{
+    margin-bottom: 15px;
+    padding: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 1.8em;
+    position: relative;
+    bottom: 20px;
+}
+
+
